@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+/* ----------------------BODY-------------- */
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 0;
+
+    background-color: #E5E5E5;
+}
+
+
+.container{
+    box-sizing: border-box;
+    max-width: 2500px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 45px;
+}
+
+
+/* --------------------HEADER---------------------- */
+
+.welcome{
+    background-image: url("/img/main.png");
+
+    box-sizing: border-box;
+    min-width: 100vh;
+    margin-top: -100px;
+    padding: 340px 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header {
+    display: flex;
+    gap: 20px;
+    list-style-type:none;
+    padding-left: 0%;
+}
+
+.right-header {
+    display: flex;
+    gap: 20px;
+    list-style-type:none;
+}
+
+.en{
+    opacity: 0.7;
+}
+
+.text{
+    height: 250px;
+    width: 465px;
+
+}
+
+.text__main {
+    font-weight: 700;
+    font-size: 57px;
+
+
+}
+.text__main--two {
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+
+/* ------------------MAIN----------------------- */
+
+.main__two{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0px;
+}
+
+.text__two {
+    font-weight: 700;
+    font-size: 57px;
+    width: 350px;
+
+    padding: 320px 0;
+}
+
+.text__two--little {
+    padding-top: 180px;
+}
+
+/* -----------------MAIN 3 ------------------------- */
+
+.left__photo__text{
+    padding: auto auto;
+}
+
+
+.main__three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 110зч;
+    
+}
+
+.text__three{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ---------------MAIN 4 ---------------- */
+
+.main__four {
+    display: flex;
+    padding: 120px 0;
+    
+}
+
+.text__right--four {
+    width: 490px;
+    padding-left: 100px;
+}
+.right__text--four {
+    font-weight: 700;
+    font-size: 57px;
+}
+.right__text--fourlittle {
+    padding-top: 200px;
+}
+
+
+/*------------MAIN 5 ------------------------- */
+
+.main__five {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text__five--left {
+    padding-left: 540px;
+}
+
+.text__five--right {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -------------MAIN 6 ------------------- */
+
+.main__six {
+    display: flex;
+    padding: 120px 0;
+    
+}
+
+.text__six--large {
+    font-weight: 700;
+    font-size: 57px;
+    width: 470px;    
+}
+
+.text__six--little{
+    font-weight: 700;
+    padding-top: 140px;
+  
+}
+.text-six{
+    padding-left: 100px;
+}
+
+
+/* -----------------MAIN----------------- */
+.main__seven {
+    font-size: 45px;
+}
+
+.list {
+    padding-left: 300px;
+    list-style-type:none;
+}
+
+.text__seven-right{
+    text-align:  right;
+padding-bottom: 46px;
+}
+
+/* -----------------------HR--------------- */
+.hr-line {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+
+	border: none;
+	border-top: 1px solid #333;
+}
+
+
+/* ----------------------FOOTER----------------- */
+.footer__nav{
+    padding: 10px 0;
+
+}
+
+.footer a {
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+li{
+    list-style-type:none;
+    padding: 12px;
+}
+
+
+.footer .footer__title{
+    display: inline-block;
+    font-size: 14px;
+    opacity: 1;
+    margin-bottom: 15px;
+
+}
+
+ .footer__list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 0;
+
+}
+
+.footer__inner-list{
+    margin: 0 0 ;
+    padding: 20px 0;
+}
+
+.footer__list-item{
+    margin: 0 0;
+    padding: 6px 0;
+    font-size: 15px;
+}
+
+.footer__title{
+    padding: 40px 0;
+    padding-right: 200px;
+    font-size: 14px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
